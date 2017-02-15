@@ -9,7 +9,7 @@ This application assumes that you:
 
 Mobile reports are sent to CommCare as XML data formatted such as:
 
-"""
+```
       <report id="3d7782e232135e0bc1d06233cda04642c9e67d0e" report_id="2f8b875ecdd72e1cea9e34492d73913f">
         <filters/>
         <rows>
@@ -24,7 +24,7 @@ Mobile reports are sent to CommCare as XML data formatted such as:
             <column id="total_goal">5897</column>
           </row>
           ...
-"""
+```
 
 These rows and columns containing labels, values and other configuration data are parsed by CommCare into graphs using d3
 
